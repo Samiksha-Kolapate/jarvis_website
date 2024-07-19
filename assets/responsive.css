@@ -1,0 +1,274 @@
+@media only screen and (max-width: 776px) {
+    .header-container{
+        position: fixed;
+        top: 0;
+        background-color: white;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .nav-container{
+        gap: 5rem;
+    }
+
+    .nav-list {
+        display: none; 
+       /*  width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        gap: 0;
+        position: absolute;
+        left: 0;
+        top: 5rem;
+        background-color: white;
+        padding-bottom: 6rem; */
+    }
+
+    .nav-list li{
+        margin-block: 1rem;
+    }
+
+    .schedule-btn-sm{
+        width: 100%;
+        padding: 0.7rem;
+        margin-top: 1.5rem;
+    }
+
+    .jarvis-intro .container{
+        margin-top: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .jarvis-intro .container h1{
+        font-size: 36px;
+    }
+
+    .jarvis-intro .container .text-extra-big{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .jarvis-intro .container .btn-secondary{
+        font-size: 1.1rem;
+        padding: 1rem 2.1rem;
+        width: 60%;
+    }
+
+    .video-div img {
+        width: 100%;
+     }
+
+     .jarvis-title{
+        font-size: 28px;
+        line-height: normal;
+        letter-spacing: -0.84px;
+     }
+
+    .jarvis-subtitle{
+        font-size: 16px;
+        text-align: center;
+     }
+     
+     .jarvis-features .container {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1.25rem;
+        width: 100%;
+        margin-right: 2rem;
+
+     }
+
+
+ 
+     .jarvis-features-grid {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 1rem;
+    }
+    
+    .grid-item1 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        border: 1px solid rgba(21, 102, 214, .18);
+        border-radius: 1rem;
+        width: 95%;
+    }
+    
+    .grid-item2 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background: rgba(43, 112, 197, .04);
+        border: 1px solid rgba(21, 102, 214, .18);
+        border-radius: 1rem;
+        width: 95%;
+    }
+    
+    .grid-item3 {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background: rgba(43, 112, 197, .1);
+        border: 1px solid rgba(21, 102, 214, .18);
+        border-radius: 1rem;
+        width: 95%;
+    }
+    
+    .grid-item4 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 2;
+       
+    }
+
+    .grid-item4 .jarvis-features-sub-grid > img{
+        width: 100%;
+    }
+
+    .text-extra-big {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.4px;
+    }
+    
+
+
+     .jarvis-why-us {
+        text-align: center;
+        margin-top: -10rem;
+    }
+    
+    
+    .jarvis-why-us .jarvis-why-us-row{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .jarvis-serve {
+        top: -20rem;
+    }
+    
+    
+     .jarvis-serve-row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    
+    .jarvis-serve-col { 
+        width: 100%;
+    }
+
+    .jarvis-collaborators {
+        text-align: center;
+    }
+    .jarvis-collaborators .text-extra-big{
+        padding-top: 1rem;
+        font-size: 1.2rem;
+    }
+    .jarvis-collaborators .jarvis-collaborators-row{
+        column-gap: 5rem;
+    } 
+    
+    .jarvis-collaborators-row 
+    .jarvis-collaborators-col1,
+    .jarvis-collaborators-col2,
+    .jarvis-collaborators-col3,
+    .jarvis-collaborators-col4,
+    .jarvis-collaborators-col5,
+    .jarvis-collaborators-col6,
+    .jarvis-collaborators-col7
+    {
+        width: 25%;
+        align-items: center;
+        justify-content: start;
+    }
+    
+    .jarvis-media {
+        text-align: center;
+    }
+
+    .jarvis-media .jarvis-media-row{
+        column-gap: 5rem;
+    } 
+    
+    .jarvis-media-row 
+    .jarvis-media-col
+    {
+        width: 25%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    
+    .jarvis-media-col .logo-box img{
+        max-width: 180%;
+        margin-left: 4rem;
+    }
+    
+    footer .footer-head{
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    font-size: 0.25rem;
+    gap: 1rem;
+    padding-bottom: 42px;
+    margin-bottom: 42px;
+    }
+
+    footer .row {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 42px;
+    }
+
+    .jarvis-contact-row {
+        flex-direction: column;
+    }
+
+
+    .contact-form .bg-blue {
+        border-radius: 1rem 1rem 0 0;
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+
+    
+    .jarvis-contact-row-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    }
+
+    
+#contact-email {
+    width: 100%;
+}
+
+.phone {
+    width: 100%;
+    margin-left: 0.2rem;
+}
+
+
+
+
+}
